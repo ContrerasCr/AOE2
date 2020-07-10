@@ -11,8 +11,7 @@ t_prod_x_10_unid = [25, 26, 27, 28, 30, 32, 25]
 def produccion_x_seg(tec, civ):
 
     prod_x_seg = [0.39, 0.38, 0.36, 0.36, 0.33, 0.31, 0.41, 0.43]
-    mej_civ = mej_civs(civ)
-    mej_eco, _ = mej_civ
+    mej_eco = mej_civs(civ)
     # mejora tecnologica
     mad = tec_recursos('tec_mad', tec[0])
     oro = tec_recursos('tec_oro', tec[1])
